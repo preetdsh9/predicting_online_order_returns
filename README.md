@@ -1,33 +1,11 @@
----
-jupyter:
-  colab:
-    name: T12 - Project Proposal
-  kernelspec:
-    display_name: Python 3
-    name: python3
-  language_info:
-    name: python
-  nbformat: 4
-  nbformat_minor: 0
----
-
-::: {.cell .markdown id="D4dwDik5tHQh"}
 # Predicting whether online orders will be returned
 
-### **Proposal**
-
-#### Sumedh Nikhil Shah (sumedhns) and Preet Jain (pkjain)
-:::
-
-::: {.cell .markdown id="ExAYBBIwuJ-v"}
 **Objective**
 
 Predict whether an online order will be returned for an online retailer
 as a step to increase net margins and improve supply chain & inventory
 management
-:::
 
-::: {.cell .markdown id="-75GQpKmCPKR"}
 **Motivation and Pain Point**
 
 Today, Amazon is the number one online retailer globally offering
@@ -55,8 +33,7 @@ help retailers forecast their inventory and also, place the right return
 services in place to reduce customer churn rate and increase net
 margins.
 
-3\) As per a [Barclays
-report](https://home.barclaycard/press-releases/), 57% of retailers say
+3\) As per a [Barclays report](https://home.barclaycard/press-releases/), 57% of retailers say
 that dealing with returns has a negative impact on the day-to-day
 running of their business.
 
@@ -66,9 +43,7 @@ the returns end up in landfill.
 These are massive pain points for online retailers which have not been
 solved yet and our prediction tool will be a means to an end towards
 companies optimizing their return procedures.
-:::
 
-::: {.cell .markdown id="vX2w8aYYEQFY"}
 **Related Work**
 
 As mentioned above, our initial idea came from us wondering about the
@@ -82,9 +57,7 @@ Note: While companies like Amazon have already started to address this
 issue (conversation with an Amazon employee), smaller retailers are
 still catching up and this prediction system will certainly help them
 address the issues of product returns.
-:::
 
-::: {.cell .markdown id="U0Q3_RYgHpB5"}
 **Machine Learning to the rescue** `<Br>`{=html} The target is to
 predict orders which would be returned (binary classification problem)
 with 100k rows of labelled data given as training data. For this task,
@@ -114,9 +87,7 @@ performance metrics that are suitable for the task at hand.
     metrics. Weightage for each of these performance metrics will be
     given based on the distribution of the target label in the training
     dataset.
-:::
 
-::: {.cell .markdown id="zhJVGEHbN6fn"}
 **Dataset (Datasets in Drive Folder)**
 
 The anonymous online retailer has provided us with real-world data in
@@ -142,9 +113,7 @@ some of this data for testing our models.
 
 **BADS_WS1819_unknown.csv** → This does not contain return information
 and will not be used/
-:::
 
-::: {.cell .markdown id="gP4CGH5XRRaC"}
 **Roadmap**
 
 -   Perform a brief visualization on the training data to analyze the
@@ -173,9 +142,7 @@ and will not be used/
 
 -   Coming up with Call to Actions (Insights) for the online retailer
     based on the findings from the task.
-:::
 
-::: {.cell .markdown id="QN_B8EtIWBXd"}
 **Value Proposition**
 
 Anticipating order returns will help retailers:
@@ -195,9 +162,3 @@ Anticipating order returns will help retailers:
     price for resale.
 -   Improve product sales by using personalized marketing strategies
     based on customer behavior.
-:::
-
-::: {.cell .code id="V55I37nDKY79"}
-``` {.python}
-```
-:::
