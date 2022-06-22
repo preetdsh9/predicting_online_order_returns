@@ -59,6 +59,7 @@ still catching up and this prediction system will certainly help them
 address the issues of product returns.
 
 **Machine Learning to the rescue**
+
 The target is to predict orders which would be returned (binary classification problem)
 with 100k rows of labelled data given as training data. For this task,
 we plan to utilize Machine Learning classification algorithms such as
@@ -67,6 +68,7 @@ along with selective ensemble modelling for improvement of performance
 metrics.
 
 **Domain** 
+
 We will be analyzing and performing prediction on retail data provided by an online
 retailer. The task is to predict the orders that are likely to be
 returned. Applying Binary Classification using Supervised Learning, we
