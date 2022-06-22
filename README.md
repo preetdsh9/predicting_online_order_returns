@@ -58,26 +58,29 @@ issue (conversation with an Amazon employee), smaller retailers are
 still catching up and this prediction system will certainly help them
 address the issues of product returns.
 
-**Machine Learning to the rescue** `<Br>`{=html} The target is to
-predict orders which would be returned (binary classification problem)
+**Machine Learning to the rescue**
+The target is to predict orders which would be returned (binary classification problem)
 with 100k rows of labelled data given as training data. For this task,
 we plan to utilize Machine Learning classification algorithms such as
 Random Forest, Logistic Regression, Support Vector Machines, Naive Bayes
 along with selective ensemble modelling for improvement of performance
-metrics. `<br>`{=html} `<br>`{=html} **Domain** `<br>`{=html} We will be
-analyzing and performing prediction on retail data provided by an online
+metrics.
+
+**Domain** 
+We will be analyzing and performing prediction on retail data provided by an online
 retailer. The task is to predict the orders that are likely to be
 returned. Applying Binary Classification using Supervised Learning, we
 aim to develop models that will help address the pain points of the
 retailer. The best model to be deployed will be chosen on difference
 performance metrics that are suitable for the task at hand.
-`<br>`{=html} `<br>`{=html} **P(T, E+ ΔE) \> P(T,E)** `<br>`{=html}
+
+**P(T, E+ ΔE) \> P(T,E)**
 
 -   **Task**- Prediction of orders that are likely to be returned by the
     customers.
 -   **Experience**- Past experience or training data includes 100k rows
     of labelled data by the retailer with target variable being
-    \"return\" \[0,1\] where 0 is NOT RETURNED and 1 is RETURNED. With
+    "return" [0,1] where 0 is NOT RETURNED and 1 is RETURNED. With
     this experience we aim to automate prediction using trained Machine
     Learning models on unseen data consisting of 50k rows.
 -   **Performance**- To measure the performance of our models on unseen
